@@ -147,9 +147,9 @@
     </style>
 </head>
 
-<body ng-app="app" ng-controller="myCtroller">
+<body ng-app="app" ng-controller="myCtroller" >
 
-    <div class="input-container">
+    <div class="input-container " ng-hide="show">
         <input type="text" id="input" ng-model="searchText" required="">
         <label for="input" class="label">Search</label>
         <div class="underline"></div>
